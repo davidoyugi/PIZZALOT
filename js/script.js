@@ -1,4 +1,7 @@
-var pizzaPrice = [1100, 800, 550]
+var pizzaPrice = {
+    1000,
+    800,
+    550]
 var transport = [0, 500];
 var pizzaName;
 $(document).ready(function() {
