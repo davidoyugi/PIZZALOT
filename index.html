@@ -149,201 +149,138 @@
                         <li class="c"></li><br>
                         <li class="n"></li><br>
                         <li class="total">Total:</li><br> -->
+
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-md-6 ">
+                                    <div id="order ">
+                                        <h1 id="ordernow ">PLACE YOUR ORDER NOW</h1>
+                                        <div class="row ">
+                                            <div class="col-md-4 mx-auto py-2 ">
+                                                <form id="orderForm ">
+                                                    <div class="form-group " required>
+                                                        <label>Customer's Name:</label>
+
+                                                        <input type="text " id="name " class="form-control " required>
+
+                                                    </div>
+                                                    <div class="form-group " required>
+                                                        <label>Phone Contact:</label>
+
+                                                        <input type="number " id="contact " class="form-control " required>
+
+                                                    </div>
+                                                    <div class="form-group ">
+                                                        <label>Size:</label>
+                                                        <select class="form-control " id="size ">
+                                <option value="1 ">Large (1200)</option>
+                                <option value="2 ">Medium (800)</option>
+                                <option value="3 ">Small (500)</option>
+                              </select>
+                                                    </div>
+                                                    <div class="form-group ">
+                                                        <label>Crust:</label>
+                                                        <select class="form-control " id="crust ">
+                                <option>Cripsy</option>
+                                <option>Stuffed</option>
+                                <option>Gluten-free</option>
+                              </select>
+                                                    </div>
+                                                    <div class="form-group ">
+                                                        <label>Topping:</label>
+                                                        <select class="form-control " id="Topping ">
+                                <option>Mushrooms</option>
+                                <option>Pepperoni</option>
+                                <option>Bacon</option>
+                                <option>Cheese</option>
+                              </select>
+                                                    </div>
+
+                                                    <div class="form-group " required>
+                                                        <label>Quantity:</label>
+
+                                                        <input type="number " id="quantity " class="form-control " min="1 " required>
+
+                                                    </div>
+                                                    <div class="form-group " required=" ">
+                                                        <label>Delivery option:</label>
+                                                        <select class="form-control " id="deliver ">
+                                <option value="1 ">I will pick</option>
+                                <option value="2 ">Deliver to my location</option>
+            
+                              </select>
+                                                    </div>
+                                                    <div class="form-group ">
+                                                        <button type="submit " class="btn btn-danger btn-block ">order</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+</body>
+</div>
+<!---End of Order Section-->
+<!----Start of Footer Section-->
+<footer>
+    <div class="footer ">
+        <div class="container " id="foot ">
+            <h2>Contacts</h2><br><br id="contact ">
+            <div class="row ">
+                <div class="footer-col1 ">
+                    <img src="./assets/footer-2.png " alt=" ">
+                </div>
+                <div class="footer-col2 ">
+                    <h5><span>P</span>izza</h5>
+                    <ul>
+                        <li><a href="home " id=" "> Home</a></li>
+                        <li><a href="about " id=" ">About</a></li>
+                        <li><a href="menu " id=" ">Menu</a></li>
+                        <li><a href="order " id=" ">Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col3 ">
+                    <h5>Contacts</h5>
+                    <ul>
+                        <li><a href="# ">pizzallot@gmail.com</a></li>
+                        <li><a href="# ">0756789065</a></li>
+                        <li><a href="# ">Nairobi</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col4 ">
+                    <h5>Social Media</h5>
+                    <div class="follow-us ">
+                        <a href="facebook "><i class="fab fa-facebook-f "></i></a>
+                        <a href="whatsapp "><i class="fab fa-whatsapp "></i></a>
+                        <a href="instagram "><i class="fab fa-instagram "></i></a>
+                        <a href="twitter "><i class="fab fa-twitter "></i></a>
                     </div>
-                    <div class="delivery">
-                        <h3>Would You like it to be delivered?</h3>
-                        <form action="">
-
-                            <input type="radio" id="yes" name="fav_dev" value="Yes">   <label for="html">Yes</label><br>   <input type="radio" id="no" name="fav_dev" value="No">   <label for="css">No</label><br>
-                        </form>
-                    </div>
-                </div><br>
-                <div class="cus">
-                    <select name="" id="pname" class="validate" required ">
-                        <option value="selected " selected class="selected ">Choose Your Flavour...</option>
-                        <option value="Cheese Pizza ">Cheese Pizza</option>
-                        <option value="Veggie Pizza ">Veggie Pizza</option>
-                        <option value="Pepperoni Pizza ">Pepperoni Pizza</option>
-                        <option value="Meat Pizza ">Meat Pizza</option>
-                        <option value="Margherita Pizza ">Margherita Pizza</option>
-                        <option value="BBQ Chicken Pizza ">BBQ Chicken Pizza</option>
-                        <option value="Hawaiian Pizza ">Hawaiian Pizza</option>
-                        <option value="Buffalo Pizza ">Buffalo Pizza</option>
-                        <option value="Supreme Pizza ">Supreme Pizza</option>
-                        <option value="Works Pizza ">Works Pizza</option>
-                    </select><br><br><br><br><br><br>
-
-                    <select name=" " id="size " class="validate " required >
-                        <option value="selected " selected class="selected ">Choose Your Size...</option>
-                        <option value="Large ">Large(Ksh 1200)</option>
-                        <option value="Medium ">Medium(Ksh 900)</option>
-                        <option value="Small ">Small(Ksh 750)</option>
-                        <option value="One Piecer ">One Piecer(Ksh 250)</option>
-                        <option value="Regular ">Regular(Ksh 650)</option>
-                        <option value="Pizza Kadogo ">Pizza Kadogo(Ksh 500)</option>
-                    </select><br><br><br><br><br>
-
-                    <select name=" " id="crust " class="validate " required >
-                        <option value="selected " selected class="selected ">Choose Your Crust...</option>
-                        <option value="Crispy ">Crispy(Ksh350)</option>
-                        <option value="Stuffed ">Stuffed(Ksh250)</option>
-                        <option value="Gluten-free ">Gluten-free(Ksh150)</option>
-                    </select><br><br><br><br><br>
-
-                    <select name=" " id="toppings " class="validate " required >
-                        <option value="selected " selected class="selected ">Choose Your Toppings...</option>
-                        <option value="Mushroom ">Mushroom(Ksh 200)</option>
-                        <option value="Sausage ">Sausage(Ksh 180)</option>
-                        <option value="Bacon ">Bacon(Ksh 280)</option>
-                        <option value="Extra Cheese ">Extra Cheese(Ksh 200)</option>
-                        <option value="Pineapple ">Pineapple(Ksh 150)</option>
-                        <option value="Pepperoni ">Pepperoni(Ksh 250)</option>
-                    </select><br><br><br><br>
-
-                    <input name=" " required value="number " type="number " id="number " placeholder="Number of pizzas " min="1 "
-                        class="n " >
                 </div>
-            </div><br><br>
-            <button class="btn-outline " id="btnn " onclick=" ">Order</button><br><br>
- <form  <div id="order ">
-    <h1 id="ordernow ">PLACE YOUR ORDER NOW</h1>
-          <div class="row ">
-            <div class="col-md-4 mx-auto py-2 ">
-              <form id="orderForm ">
-                <div class="form-group " required>
-                  <label>Customer's Name:</label>
-              
-                  <input type="text " id="name " class="form-control " required>
-                  
-                </div>                  
-                <div class="form-group " required>
-                  <label>Phone Contact:</label>
-              
-                  <input type="number " id="contact " class="form-control " required>
-                  
-                </div>
-                <div class="form-group ">
-                  <label>Size:</label>
-                  <select class="form-control " id="size ">
-                    <option value="1 ">Large (1200)</option>
-                    <option value="2 ">Medium (800)</option>
-                    <option value="3 ">Small (500)</option>
-                  </select>
-                </div>
-                <div class="form-group ">
-                  <label>Crust:</label>
-                  <select class="form-control " id="crust ">
-                    <option>Cripsy</option>
-                    <option>Stuffed</option>
-                    <option>Gluten-free</option>
-                  </select>
-                </div>
-                <div class="form-group ">
-                  <label>Topping:</label>
-                  <select class="form-control " id="Topping ">
-                    <option>Mushrooms</option>
-                    <option>Pepperoni</option>
-                    <option>Bacon</option>
-                    <option>Cheese</option>
-                  </select>
-                </div>
-
-                <div class="form-group " required>
-                  <label>Quantity:</label>
-              
-                  <input type="number " id="quantity " class="form-control " min="1 " required>
-                  
-                </div>
-                <div class="form-group " required=" ">
-                  <label>Delivery option:</label>
-                  <select class="form-control " id="deliver ">
-                    <option value="1 ">I will pick</option>
-                    <option value="2 ">Deliver to my location</option>
-
-                  </select>
-                </div>
-                <div class="form-group ">
-                  <button type="submit " class="btn btn-danger btn-block ">order</button>
-                </div>
-              </form>
             </div>
-
-          </div>
         </div>
     </div>
-  </div>
-        </body>
-        </div>
-        <!---End of Order Section-->
-        <!----Start of Footer Section-->
-        <footer>
-            <div class="footer ">
-                <div class="container " id="foot ">
-                    <h2>Contacts</h2><br><br id="contact ">
-                    <div class="row ">
-                        <div class="footer-col1 ">
-                            <img src="./assets/footer-2.png " alt=" ">
-                        </div>
-                        <div class="footer-col2 ">
-                            <h5><span>P</span>izza</h5>
-                            <ul>
-                                <li><a href="home " id=" "> Home</a></li>
-                                <li><a href="about " id=" ">About</a></li>
-                                <li><a href="menu " id=" ">Menu</a></li>
-                                <li><a href="order " id=" ">Order</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-col3 ">
-                            <h5>Contacts</h5>
-                            <ul>
-                                <li><a href="# ">pizzallot@gmail.com</a></li>
-                                <li><a href="# ">0756789065</a></li>
-                                <li><a href="# ">Nairobi</a></li>
+    <div class="copyright ">
+        <h4>&copy;2021 All Rights Reserved!</h4>
+    </div>
 
-                            </ul>
-                        </div>
-                        <div class="footer-col4 ">
-                            <h5>Social Media</h5>
-                            <div class="follow-us ">
-                                <a href="facebook "><i class="fab fa-facebook-f "></i></a>
-                                <a href="whatsapp "><i class="fab fa-whatsapp "></i></a>
-                                <a href="instagram "><i class="fab fa-instagram "></i></a>
-                                <a href="twitter "><i class="fab fa-twitter "></i></a>
-                            </div>
-                        </div>
-                         
-         
-                    </div>
-                </div>
-                
-            </div>
-            <div class="copyright ">
-                <h4>&copy;2021 All Rights Reserved!</h4>
-            </div>  
-            
-        </footer>
-         <!---End of Footer ---->
-    </section>
+</footer>
+<!---End of Footer ---->
+</section>
 
+<!---Javascript link section-->
 
+<script src="js/jquery-3.6.0.js "></script>
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+<script src="js/bootstrap.bundle.min.js "></script>
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+<script src="js/bootstrap.min.js "></script>
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+<script src="js/script.js "></script>
 
-
-
-
-
-    <!---Javascript link section-->
-
-    <script src="js/jquery-3.6.0.js "></script>   
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
-        crossorigin="anonymous "></script>
-        <script src="js/bootstrap.bundle.min.js "></script>
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
-        crossorigin="anonymous "></script>
-    <script src="js/bootstrap.min.js "></script>
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
-        crossorigin="anonymous "></script>
-    <script src="js/script.js "></script>
-    <!---End of Js link section-->
+<!---End of Js link section-->
 
 
 </body>
